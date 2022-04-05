@@ -1,11 +1,9 @@
-function App() {
+import ExpenseItem from './components/ExpenseItem'
+
+export default function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1> Learn React </h1>
-      </header>
+    <div>
+       <ExpenseItem />
     </div>
   );
 }
-
-export default App;
